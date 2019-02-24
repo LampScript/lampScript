@@ -1,0 +1,3 @@
+github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5 h1:rFw4nCn9iMW+Vajsk51NtYIcwSTkXr+JGrMd36kTDJw=
+github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5/go.mod h1:SkGFH1ia65gfNATL8TAiHDNxPzPdmEL5uirI2Uyuz6c=
+github.com/hystrix-go/hystrix v0.0.0-20171102065123-3e7e8ad1ab87 h1:q1vaoTqJVMrhRDq8SqewOFvc6dO5WJ+YG2qTv53jCh4=
