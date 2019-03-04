@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"time"
 	"errors"
+	"fmt"
 	"github.com/afex/hystrix-go/hystrix"
+	"time"
 )
 
 var Number int
@@ -27,17 +27,17 @@ func main() {
 		start1 := time.Now()
 		Number = i
 		hystrix.Go("test", run, getFallBack)
-		fmt.Println("请求次数:", i+1, ";\t用时:", time.Now().Sub(start1), ";\t请求状态 :", Result, ";\t熔断器开启状态:", cbs.IsOpen(), ";\t请求是否允许：", cbs.AllowRequest())
+		//fmt.Println("请求次数:", i+1, ";用时:", time.Now().Sub(start1), ";请求状态 :", Result, ";熔断器开启状态:", cbs.IsOpen(), ";请求是否允许：", cbs.AllowRequest())
+		fmt.Printf("请求次数:%d, 用时:%v, 请求状态:%s, 熔断器开启状态:%v, 请求是否允许:%v\n", i+1, time.Now().Sub(start1), Result, cbs.IsOpen(), cbs.AllowRequest())
 		time.Sleep(1000 * time.Millisecond)
 	}
 	time.Sleep(20 * time.Second)
+
 }
 
 func run() error {
+	time.Sleep(2000 * time.Millisecond)
 	Result = "RUNNING1"
-	if Number > 10 {
-		return nil
-	}
 	if Number%2 == 0 {
 		return nil
 	} else {
@@ -48,5 +48,4 @@ func run() error {
 func getFallBack(err error) error {
 	Result = "FALLBACK"
 	return nil
-
 }
