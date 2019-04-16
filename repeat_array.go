@@ -6,7 +6,9 @@ func main()  {
 	fmt.Println("bug fix into master")
 }
 
-
+func bugFix()  {
+	fmt.Println("bug fix func")
+}
 
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
