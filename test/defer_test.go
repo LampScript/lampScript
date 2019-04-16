@@ -59,7 +59,6 @@ func BenchmarkNoDeferLock(b *testing.B) {
 
 
 
-
 func foo1(i int)  {
 	i++
 }
