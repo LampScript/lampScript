@@ -3,10 +3,12 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Println(removeDuplicates([]int{1,1,2,3,6}))
+	fmt.Println("bug fix into master")
 }
 
-
+func bugFix()  {
+	fmt.Println("bug fix func")
+}
 
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
