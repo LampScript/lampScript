@@ -6,6 +6,9 @@ func main()  {
 	fmt.Println("test")
 }
 
+func MyTest()  {
+	fmt.Println("my test func")
+}
 
 
 func removeDuplicates(nums []int) int {
