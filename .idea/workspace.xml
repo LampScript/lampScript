@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add.">
-      <change afterPath="$PROJECT_DIR$/longest_common_prefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_sum.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/longest_common_prefix.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+            <state relative-caret-position="453">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_sum.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,11 +86,13 @@
       <find>PAHNAPLSIIGYIR</find>
       <find>par</find>
       <find>nextMap</find>
+      <find>nums</find>
     </findStrings>
     <replaceStrings>
       <replace>;\t</replace>
       <replace>;</replace>
       <replace>subMap</replace>
+      <replace>noDupNum</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
@@ -116,12 +130,15 @@
         <option value="$PROJECT_DIR$/integer_to_roman.go" />
         <option value="$PROJECT_DIR$/roman_to_integer.go" />
         <option value="$PROJECT_DIR$/longest_common_prefix.go" />
+        <option value="$PROJECT_DIR$/3_sum.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="722" />
+    <option name="y" value="23" />
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,7 +201,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build longest_common_prefix.go">
+  <component name="RunManager" selected="Go Build.go build 3_sum.go">
+    <configuration name="go build 3_sum.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/3_sum.go" />
+      <package value="github.com/lampScript/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build integer_to_roman.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -221,22 +247,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build zig_zag.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/zig_zag.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 3_sum.go" />
         <item itemvalue="Go Build.go build longest_common_prefix.go" />
         <item itemvalue="Go Build.go build roman_to_integer.go" />
         <item itemvalue="Go Build.go build integer_to_roman.go" />
         <item itemvalue="Go Build.go build regular_expression_matching.go" />
-        <item itemvalue="Go Build.go build zig_zag.go" />
       </list>
     </recent_temporary>
   </component>
@@ -443,8 +460,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/longest_common_prefix.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="453">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_sum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
