@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add 4sum">
-      <change afterPath="$PROJECT_DIR$/remove_nth_node.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add removeNthFromEnd">
+      <change afterPath="$PROJECT_DIR$/generate_parentheses.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remove_nth_node.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="14" selection-start-line="14" selection-end-line="62" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generate_parentheses.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -56,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/reverse_k_group.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -83,6 +92,8 @@
       <find>nums</find>
       <find>(num[head] + num[tail] - target)</find>
       <find>ListNode</find>
+      <find>result,</find>
+      <find>((()))</find>
     </findStrings>
     <replaceStrings>
       <replace>;\t</replace>
@@ -132,6 +143,7 @@
         <option value="$PROJECT_DIR$/letter_combinations_phonen_number.go" />
         <option value="$PROJECT_DIR$/4_sum.go" />
         <option value="$PROJECT_DIR$/remove_nth_node.go" />
+        <option value="$PROJECT_DIR$/generate_parentheses.go" />
       </list>
     </option>
   </component>
@@ -202,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 4_sum.go">
+  <component name="RunManager" selected="Go Build.go build generate_parentheses.go">
     <configuration name="go build 3_sum_closet.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -230,6 +242,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build generate_parentheses.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/generate_parentheses.go" />
+      <package value="github.com/lampScript/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build letter_combinations_phonen_number.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -239,22 +260,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build longest_common_prefix.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/longest_common_prefix.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build generate_parentheses.go" />
         <item itemvalue="Go Build.go build 4_sum.go" />
         <item itemvalue="Go Build.go build letter_combinations_phonen_number.go" />
         <item itemvalue="Go Build.go build 3_sum_closet.go" />
         <item itemvalue="Go Build.go build 3_sum.go" />
-        <item itemvalue="Go Build.go build longest_common_prefix.go" />
       </list>
     </recent_temporary>
   </component>
@@ -294,12 +306,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18192919" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18192919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,7 +346,8 @@
     <MESSAGE value="add 3 sum" />
     <MESSAGE value="add combinations 2" />
     <MESSAGE value="add 4sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 4sum" />
+    <MESSAGE value="add removeNthFromEnd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add removeNthFromEnd" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../afex/hystrix-go/hystrix/hystrix.go" />
@@ -502,7 +515,7 @@
     <entry file="file://$PROJECT_DIR$/reverse_k_group.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -515,8 +528,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remove_nth_node.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="14" selection-start-line="14" selection-end-line="62" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_parentheses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
