@@ -1,4 +1,5 @@
 # lampScript
-练习的脚本
 
-zy949308889@gmail.com
+徒手刷[LeetCode100题](https://leetcode.com/problemset/all/)解题答案以及思路
+
+ 
