@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="86题&#10;https://leetcode.com/problems/divide-two-integers/submissions/&#10;Runtime: 2488 ms, faster than 19.01% of Go online submissions for Divide Two Integers.&#10;Memory Usage: 2.4 MB, less than 45.45% of Go online submissions for Divide Two Integers.&#10;&#10;其实不知道这题考点是啥。。。">
-      <change afterPath="$PROJECT_DIR$/find_substring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_valid_parentheses.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next_permutation.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add .">
+      <change afterPath="$PROJECT_DIR$/search_in_rotated_sorted_array.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_substring.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_in_rotated_sorted_array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -68,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/longest_valid_parentheses.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -165,14 +172,13 @@
         <option value="$PROJECT_DIR$/find_substring.go" />
         <option value="$PROJECT_DIR$/next_permutation.go" />
         <option value="$PROJECT_DIR$/longest_valid_parentheses.go" />
+        <option value="$PROJECT_DIR$/search_in_rotated_sorted_array.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="210" />
-    <option name="y" value="144" />
-    <option name="width" value="1260" />
-    <option name="height" value="731" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -327,12 +333,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1910867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +379,8 @@
     <MESSAGE value="add 88 题" />
     <MESSAGE value="add 87 题" />
     <MESSAGE value="86题&#10;https://leetcode.com/problems/divide-two-integers/submissions/&#10;Runtime: 2488 ms, faster than 19.01% of Go online submissions for Divide Two Integers.&#10;Memory Usage: 2.4 MB, less than 45.45% of Go online submissions for Divide Two Integers.&#10;&#10;其实不知道这题考点是啥。。。" />
-    <option name="LAST_COMMIT_MESSAGE" value="86题&#10;https://leetcode.com/problems/divide-two-integers/submissions/&#10;Runtime: 2488 ms, faster than 19.01% of Go online submissions for Divide Two Integers.&#10;Memory Usage: 2.4 MB, less than 45.45% of Go online submissions for Divide Two Integers.&#10;&#10;其实不知道这题考点是啥。。。" />
+    <MESSAGE value="add ." />
+    <option name="LAST_COMMIT_MESSAGE" value="add ." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../afex/hystrix-go/hystrix/hystrix.go" />
@@ -617,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_substring.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -631,11 +638,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/longest_valid_parentheses.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="360">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_in_rotated_sorted_array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
