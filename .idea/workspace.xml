@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add .">
-      <change afterPath="$PROJECT_DIR$/search_in_rotated_sorted_array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_first_and_last_in_array.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_in_rotated_sorted_array.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="495">
+              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find_first_and_last_in_array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -114,6 +123,7 @@
       <find>removeDuplicates</find>
       <find>2147483647</find>
       <find>longestValidParentheses</find>
+      <find>searchRange</find>
     </findStrings>
     <replaceStrings>
       <replace>;\t</replace>
@@ -173,6 +183,8 @@
         <option value="$PROJECT_DIR$/next_permutation.go" />
         <option value="$PROJECT_DIR$/longest_valid_parentheses.go" />
         <option value="$PROJECT_DIR$/search_in_rotated_sorted_array.go" />
+        <option value="$PROJECT_DIR$/find_first_and_last_position_of_element_in_sorted_array.go" />
+        <option value="$PROJECT_DIR$/find_first_and_last_in_array.go" />
       </list>
     </option>
   </component>
@@ -241,12 +253,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build longest_valid_parentheses.go">
+  <component name="RunManager" selected="Go Build.go build find_first_and_last_in_array.go">
     <configuration name="go build divide_two_integers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/divide_two_integers.go" />
+      <package value="github.com/lampScript/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build find_first_and_last_in_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/find_first_and_last_in_array.go" />
       <package value="github.com/lampScript/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -278,22 +299,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build repeat_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/repeat_array.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build find_first_and_last_in_array.go" />
         <item itemvalue="Go Build.go build longest_valid_parentheses.go" />
         <item itemvalue="Go Build.go build divide_two_integers.go" />
         <item itemvalue="Go Build.go build implement_str_str.go" />
         <item itemvalue="Go Build.go build remove_element.go" />
-        <item itemvalue="Go Build.go build repeat_array.go" />
       </list>
     </recent_temporary>
   </component>
@@ -333,12 +345,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,6 +393,30 @@
     <MESSAGE value="86题&#10;https://leetcode.com/problems/divide-two-integers/submissions/&#10;Runtime: 2488 ms, faster than 19.01% of Go online submissions for Divide Two Integers.&#10;Memory Usage: 2.4 MB, less than 45.45% of Go online submissions for Divide Two Integers.&#10;&#10;其实不知道这题考点是啥。。。" />
     <MESSAGE value="add ." />
     <option name="LAST_COMMIT_MESSAGE" value="add ." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../afex/hystrix-go/hystrix/hystrix.go" />
@@ -648,8 +684,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search_in_rotated_sorted_array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="495">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_first_and_last_in_array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>
