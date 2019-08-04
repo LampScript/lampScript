@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add .">
-      <change afterPath="$PROJECT_DIR$/find_first_and_last_in_array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search_insert_position.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_first_and_last_in_array.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_insert_position.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -185,6 +194,7 @@
         <option value="$PROJECT_DIR$/search_in_rotated_sorted_array.go" />
         <option value="$PROJECT_DIR$/find_first_and_last_position_of_element_in_sorted_array.go" />
         <option value="$PROJECT_DIR$/find_first_and_last_in_array.go" />
+        <option value="$PROJECT_DIR$/search_insert_position.go" />
       </list>
     </option>
   </component>
@@ -253,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build find_first_and_last_in_array.go">
+  <component name="RunManager" selected="Go Build.go build search_insert_position.go">
     <configuration name="go build divide_two_integers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -290,22 +300,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build remove_element.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build search_insert_position.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/remove_element.go" />
+      <filePath value="$PROJECT_DIR$/search_insert_position.go" />
       <package value="github.com/lampScript/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build search_insert_position.go" />
         <item itemvalue="Go Build.go build find_first_and_last_in_array.go" />
         <item itemvalue="Go Build.go build longest_valid_parentheses.go" />
         <item itemvalue="Go Build.go build divide_two_integers.go" />
         <item itemvalue="Go Build.go build implement_str_str.go" />
-        <item itemvalue="Go Build.go build remove_element.go" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +366,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -399,19 +409,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
-          <line>60</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/find_first_and_last_in_array.go</url>
-          <line>59</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -691,8 +695,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find_first_and_last_in_array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_insert_position.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
