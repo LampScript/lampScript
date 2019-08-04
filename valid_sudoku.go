@@ -93,7 +93,6 @@ func checkColumn(board [][]byte, row int) bool {
 		if temp == '.' {
 			continue
 		}
-		fmt.Println(temp, "row = ", j)
 		_, ok := numMap[temp];if ok {
 			return false
 		}
