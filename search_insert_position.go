@@ -15,7 +15,7 @@ Memory Usage: 3.1 MB, less than 97.67% of Go online submissions for Search Inser
 https://leetcode.com/problems/search-insert-position/submissions/
 
 */
-
+//git remote set-url --push origin git@github.com:LampScript/lampScript.git
 
 func searchInsert(nums []int, target int) int {
 
