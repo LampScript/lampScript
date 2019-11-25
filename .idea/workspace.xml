@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="当你答对了一道hard题目刚想沾沾自喜时却发现看不懂标准答案">
-      <change afterPath="$PROJECT_DIR$/common.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest_palindromic_substring.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add 最长回文">
+      <change afterPath="$PROJECT_DIR$/reverse.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge_two_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/merge_two_lists.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/two_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/two_sum.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,217 +28,32 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/longest_palindromic_substring.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" selection-start-line="24" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merge_two_lists.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combine.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="29" selection-start-line="16" selection-end-line="17" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combination_sum.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>result,</find>
-      <find>((()))</find>
-      <find>removeDuplicates</find>
-      <find>2147483647</find>
-      <find>longestValidParentheses</find>
-      <find>searchRange</find>
-      <find>rowPossibleMap</find>
-      <find>all[i]</find>
-      <find>PossibleMap</find>
-      <find>byte</find>
-      <find>total</find>
-      <find>columnExistMap</find>
-      <find>&quot;</find>
-      <find>combinationSum</find>
-      <find>fmt</find>
-      <find>0xc0000a0000`</find>
-      <find>0x11bdff0</find>
-      <find>0xc00000c0c0</find>
-      <find>sort</find>
-      <find>quick</find>
-      <find>fetch/pick</find>
-      <find>getValue</find>
-      <find>isPalindrome</find>
-      <find>*</find>
-      <find>twoSum</find>
-      <find>ListNode</find>
-      <find>lengthOfLongestSubstring</find>
-      <find>allResult</find>
-      <find>all</find>
-      <find>backtrack</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>;\t</replace>
-      <replace>;</replace>
-      <replace>subMap</replace>
-      <replace>noDupNum</replace>
-      <replace>temp</replace>
-      <replace>rowMap</replace>
-      <replace>value</replace>
-      <replace>ExistMap</replace>
-      <replace>string</replace>
-      <replace>'</replace>
-      <replace>all</replace>
-      <replace>allCombine</replace>
-    </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go@1.12/1.12.9/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$/../../code.jiecaojingxuan.com/scallop" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/client.go" />
-        <option value="$PROJECT_DIR$/epoll_server.go" />
-        <option value="$PROJECT_DIR$/server.go" />
-        <option value="$PROJECT_DIR$/gjson.go" />
-        <option value="$PROJECT_DIR$/epoll.go" />
-        <option value="$PROJECT_DIR$/defer.go" />
-        <option value="$PROJECT_DIR$/defer_test.go" />
-        <option value="$PROJECT_DIR$/go.mod" />
-        <option value="$PROJECT_DIR$/test/defer_test.go" />
-        <option value="$PROJECT_DIR$/zig_zag_test.go" />
-        <option value="$PROJECT_DIR$/zig_zag.go" />
-        <option value="$PROJECT_DIR$/regular_expression_matching.go" />
-        <option value="$PROJECT_DIR$/integer_to_roman.go" />
-        <option value="$PROJECT_DIR$/roman_to_integer.go" />
-        <option value="$PROJECT_DIR$/longest_common_prefix.go" />
-        <option value="$PROJECT_DIR$/3_sum.go" />
-        <option value="$PROJECT_DIR$/3_sum_closet.go" />
-        <option value="$PROJECT_DIR$/letter_combinations_phonen_number.go" />
-        <option value="$PROJECT_DIR$/4_sum.go" />
-        <option value="$PROJECT_DIR$/remove_nth_node.go" />
-        <option value="$PROJECT_DIR$/generate_parentheses.go" />
-        <option value="$PROJECT_DIR$/pointer_test.go" />
-        <option value="$PROJECT_DIR$/remove_duplicates.go" />
-        <option value="$PROJECT_DIR$/repeat_array.go" />
-        <option value="$PROJECT_DIR$/remove_element.go" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/implement_str_str.go" />
-        <option value="$PROJECT_DIR$/divide_two_integers.go" />
-        <option value="$PROJECT_DIR$/find_substring.go" />
-        <option value="$PROJECT_DIR$/next_permutation.go" />
-        <option value="$PROJECT_DIR$/longest_valid_parentheses.go" />
-        <option value="$PROJECT_DIR$/search_in_rotated_sorted_array.go" />
-        <option value="$PROJECT_DIR$/find_first_and_last_position_of_element_in_sorted_array.go" />
-        <option value="$PROJECT_DIR$/find_first_and_last_in_array.go" />
-        <option value="$PROJECT_DIR$/search_insert_position.go" />
-        <option value="$PROJECT_DIR$/valid_sudoku.go" />
-        <option value="$PROJECT_DIR$/sudoku_solver.go" />
-        <option value="$PROJECT_DIR$/count_and_say.go" />
-        <option value="$PROJECT_DIR$/combination_sum.go" />
-        <option value="$PROJECT_DIR$/recursive.go" />
-        <option value="$PROJECT_DIR$/sort.go" />
-        <option value="$PROJECT_DIR$/merge_two_channel.go" />
-        <option value="$PROJECT_DIR$/shopee.go" />
-        <option value="$PROJECT_DIR$/two_sum.go" />
-        <option value="$PROJECT_DIR$/add_two_nums.go" />
-        <option value="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" />
-        <option value="$PROJECT_DIR$/median_of_two_sorted_arrays.go" />
-        <option value="$PROJECT_DIR$/combine.go" />
-        <option value="$PROJECT_DIR$/merge_two_lists.go" />
-        <option value="$PROJECT_DIR$/common.go" />
-        <option value="$PROJECT_DIR$/longest_palindromic_substring.go" />
-      </list>
-    </option>
-  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="flzzuLSS" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="210" />
-    <option name="y" value="144" />
-    <option name="width" value="1260" />
-    <option name="height" value="731" />
-  </component>
+  <component name="ProjectId" id="1RVXcX7TT1S7mfmV2Z9ukgSlSbQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lampScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lampScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -250,6 +66,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -278,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build longest_palindromic_substring.go">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (1)">
     <configuration name="go build combine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -297,6 +114,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/lampScript (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/two_sum.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/lampScript" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/reverse.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build longest_palindromic_substring.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -306,31 +141,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build longest_substring_without_repeating_characters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build median_of_two_sorted_arrays.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/median_of_two_sorted_arrays.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build longest_palindromic_substring.go" />
+        <item itemvalue="Go Build.go build github.com/lampScript (1)" />
         <item itemvalue="Go Build.go build common.go" />
+        <item itemvalue="Go Build.go build github.com/lampScript" />
+        <item itemvalue="Go Build.go build longest_palindromic_substring.go" />
         <item itemvalue="Go Build.go build combine.go" />
-        <item itemvalue="Go Build.go build median_of_two_sorted_arrays.go" />
-        <item itemvalue="Go Build.go build longest_substring_without_repeating_characters.go" />
       </list>
     </recent_temporary>
   </component>
@@ -366,35 +183,6 @@
       <configuration name="TestFuc in github.com/lampScript/test" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15750916" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Alibaba Cloud Explorer" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.10683761" />
-      <window_info anchor="right" id="Alibaba Log Console" order="4" />
-      <window_info anchor="right" id="Cargo" order="5" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -406,6 +194,19 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -423,7 +224,12 @@
     <MESSAGE value="add ." />
     <MESSAGE value="当你答对了一道hard题目刚想沾沾自喜时却发现看不懂标准答案" />
     <MESSAGE value="add 回溯法" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 回溯法" />
+    <MESSAGE value="add 最长回文" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 最长回文" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,334 +246,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3_sum_closet.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letter_combinations_phonen_number.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integer_to_roman.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove_nth_node.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reverse_k_group.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove_duplicates.go" />
-    <entry file="file://$PROJECT_DIR$/repeat_array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/panic.go" />
-    <entry file="file://$PROJECT_DIR$/remove_element.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.sum">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/const.go" />
-    <entry file="file://$PROJECT_DIR$/implement_str_str.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/divide_two_integers.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_substring.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/next_permutation.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_in_rotated_sorted_array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_insert_position.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku.java" />
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/fmt/print.go" />
-    <entry file="file://$PROJECT_DIR$/count_and_say.go" />
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/builtin/builtin.go" />
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/proc.go" />
-    <entry file="file://$PROJECT_DIR$/valid_sudoku.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sudoku_solver.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointer_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2205">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#14#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort.go" />
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/sort/sort.go" />
-    <entry file="file://$PROJECT_DIR$/recursive.go" />
-    <entry file="file://$PROJECT_DIR$/longest_valid_parentheses.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge_two_channel.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_parentheses.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_first_and_last_in_array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopee.go" />
-    <entry file="file://$PROJECT_DIR$/two_sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/add_two_nums.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hystrix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go@1.12/1.12.9/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go@1.12/1.12.9/libexec/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="273" column="5" selection-start-line="273" selection-start-column="5" selection-end-line="273" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/longest_substring_without_repeating_characters.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="43" selection-start-line="19" selection-end-line="20" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/median_of_two_sorted_arrays.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combine.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="29" selection-start-line="16" selection-end-line="17" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combination_sum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge_two_lists.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go@1.12/1.12.9/libexec/src/runtime/proc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go@1.12/1.12.9/libexec/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/longest_palindromic_substring.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

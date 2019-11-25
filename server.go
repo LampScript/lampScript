@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/rcrowley/go-metrics"
 	"io"
 	"io/ioutil"
 	"log"
@@ -42,7 +41,6 @@ func main() {
 			log.Printf("total number of connections: %v", len(connections))
 		}
 
-		metrics.NewRegisteredMeter("12", nil)
 	}
 }
 func handleConn(conn net.Conn) {

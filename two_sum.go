@@ -1,7 +1,49 @@
 package main
 
-func main()  {
+import (
+	"fmt"
+)
 
+func main()  {
+	fmt.Println(twoSumHash([]int{3,5,0,4}, 7))
+}
+
+func twoSumHash(nums []int, target int) []int {
+	if nums == nil || len(nums) == 0 {
+		return nil
+	}
+
+	m := make(map[int]int, len(nums))
+
+	for i,v := range nums {
+		left := target - v
+		i2, ok := m[left]; if ok {
+			return []int{i, i2}
+		}
+		m[v]=i
+	}
+	return nil
+}
+
+func twoSumBrute(nums []int, target int) []int {
+
+	if nums == nil || len(nums) == 0 {
+		return nums
+	}
+
+	for i, v := range nums {
+		left := target - v
+		if i == len(nums)-1 {
+			continue
+		}
+
+		for i2, j := range nums[i+1:] {
+			if j == left {
+				return []int{i,i2+i+1}
+			}
+		}
+	}
+	return nil
 }
 
 func twoSum2(nums []int, target int) []int {
