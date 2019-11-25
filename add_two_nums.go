@@ -7,6 +7,37 @@ func main()  {
 }
 
 
+func addTwoNumbers3(l1 *ListNode, l2 *ListNode) *ListNode {
+	head := new(ListNode)
+	cursor := head
+	extra := 0
+
+	for true {
+		v := extra
+		extra = 0
+		if l1 != nil {
+			v+=l1.Val
+			l1 = l1.Next
+		}
+		if l2 != nil {
+			v+=l2.Val
+			l2=l2.Next
+		}
+		if v >= 10 {
+			v-=10
+			extra++
+		}
+		cursor.Val = v
+		if l1 == nil && l2 == nil && extra == 0 {
+			break
+		}
+		tmp := new(ListNode)
+		cursor.Next = tmp
+		cursor = tmp
+	}
+
+	return head
+}
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	add := 0
