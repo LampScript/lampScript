@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add new two sum">
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add new sum two listnode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_two_nums.go" beforeDir="false" afterPath="$PROJECT_DIR$/add_two_nums.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" beforeDir="false" afterPath="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,16 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript (1)">
-    <configuration name="go build combine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/combine.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (2)">
     <configuration name="go build common.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -116,6 +107,15 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/two_sum.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/lampScript (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/lampScript (2)" />
         <item itemvalue="Go Build.go build github.com/lampScript (1)" />
         <item itemvalue="Go Build.go build common.go" />
         <item itemvalue="Go Build.go build github.com/lampScript" />
         <item itemvalue="Go Build.go build longest_palindromic_substring.go" />
-        <item itemvalue="Go Build.go build combine.go" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,8 @@
     <MESSAGE value="add 回溯法" />
     <MESSAGE value="add 最长回文" />
     <MESSAGE value="add new two sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new two sum" />
+    <MESSAGE value="add new sum two listnode" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new sum two listnode" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

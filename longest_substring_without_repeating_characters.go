@@ -5,8 +5,40 @@ import (
 )
 
 func main() {
-	fmt.Println(lengthOfLongestSubstringJava("abcabc"))
+	fmt.Println(lengthOfLongestSubstringSlideWindow("dvdf"))
+
 }
+
+
+func lengthOfLongestSubstringSlideWindow(s string) int {
+	if len(s) < 2 {
+		return 1
+	}
+	max := 0
+	left := 0
+	right := 1
+	for ;right<len(s);right++{
+		v := string(s[right])
+		tmp := Unique(s[left:right], v)
+		if tmp >= 0 {
+			left += tmp+1
+		}
+		if len(s[left:right+1]) > max {
+			max = right - left + 1
+		}
+	}
+	return max
+}
+
+func Unique(r1 string, r string) int  {
+	for i, v := range r1{
+		if string(v) == r {
+			return i
+		}
+	}
+	return -1
+}
+
 
 func lengthOfLongestSubstring(s string) int {
 
