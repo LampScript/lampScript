@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add slide window">
-      <change afterPath="$PROJECT_DIR$/lay_print.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add lay_print">
+      <change afterPath="$PROJECT_DIR$/pow.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript (3)">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (4)">
     <configuration name="go build common.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -129,22 +129,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/lampScript" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/lampScript (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/reverse.go" />
+      <filePath value="$PROJECT_DIR$/pow.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/lampScript (4)" />
         <item itemvalue="Go Build.go build github.com/lampScript (3)" />
         <item itemvalue="Go Build.go build github.com/lampScript (2)" />
         <item itemvalue="Go Build.go build github.com/lampScript (1)" />
         <item itemvalue="Go Build.go build common.go" />
-        <item itemvalue="Go Build.go build github.com/lampScript" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +225,8 @@
     <MESSAGE value="add new two sum" />
     <MESSAGE value="add new sum two listnode" />
     <MESSAGE value="add slide window" />
-    <option name="LAST_COMMIT_MESSAGE" value="add slide window" />
+    <MESSAGE value="add lay_print" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lay_print" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
