@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add new sum two listnode">
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add slide window">
+      <change afterPath="$PROJECT_DIR$/lay_print.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" beforeDir="false" afterPath="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shadowsocks/go-shadowsocks2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -92,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript (2)">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (3)">
     <configuration name="go build common.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -120,6 +120,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/lampScript (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/lay_print.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/lampScript" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
@@ -129,22 +138,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build longest_palindromic_substring.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/longest_palindromic_substring.go" />
-      <package value="github.com/lampScript/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/lampScript (3)" />
         <item itemvalue="Go Build.go build github.com/lampScript (2)" />
         <item itemvalue="Go Build.go build github.com/lampScript (1)" />
         <item itemvalue="Go Build.go build common.go" />
         <item itemvalue="Go Build.go build github.com/lampScript" />
-        <item itemvalue="Go Build.go build longest_palindromic_substring.go" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +224,8 @@
     <MESSAGE value="add 最长回文" />
     <MESSAGE value="add new two sum" />
     <MESSAGE value="add new sum two listnode" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new sum two listnode" />
+    <MESSAGE value="add slide window" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slide window" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
