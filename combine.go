@@ -10,6 +10,29 @@ func main()  {
 	fmt.Println(permute([]int{1,2,3}))
 }
 
+func permute(input []int) [][]int  {
+
+	out := make([][]int, 0)
+
+	out = backTrack(0, out, input)
+	return out
+}
+
+func backTrack(first int, out [][]int, nums []int) [][]int  {
+	if len(nums) == first {
+		s := make([]int, len(nums))
+		copy(s, nums)
+		out = append(out, s)
+	}
+
+	for i:=first;i<len(nums);i++  {
+		nums[first], nums[i] = nums[i], nums[first]
+		out = backTrack(first+1, out, nums)
+		nums[first], nums[i] = nums[i], nums[first]
+	}
+	return out
+}
+
 func getAllNum(input []int)  {
 
 	usedMap := make(map[int]struct{})
@@ -39,29 +62,6 @@ func combine(data map[int]struct{}, result []int, target int) {
 		combine(data, result, target-1)
 		data[i]= struct{}{}
 	}
-}
-
-func permute(input []int) [][]int  {
-
-	out := make([][]int, 0)
-
-	out = backTrack(len(input), 0, out, input)
-	return out
-}
-
-func backTrack(n, first int, out [][]int, nums []int) [][]int  {
-	if n == first {
-		s := make([]int, len(nums))
-		copy(s, nums)
-		out = append(out, s)
-	}
-
-	for i:=first;i<len(nums);i++  {
-		nums[first], nums[i] = nums[i], nums[first]
-		out = backTrack(n, first+1, out, nums)
-		nums[first], nums[i] = nums[i], nums[first]
-	}
-	return out
 }
 
 

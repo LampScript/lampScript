@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add pow">
-      <change afterPath="$PROJECT_DIR$/groupAnagrams.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add groupAnagrams">
+      <change afterPath="$PROJECT_DIR$/maxSubArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rightSideView.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combine.go" beforeDir="false" afterPath="$PROJECT_DIR$/combine.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,21 +94,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (1)">
     <configuration name="go build github.com/lampScript (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/two_sum.go" />
-      <package value="github.com/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/lampScript (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/longest_substring_without_repeating_characters.go" />
+      <filePath value="$PROJECT_DIR$/maxSubArray.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -129,6 +122,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/lampScript (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/combine.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/lampScript" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/lampScript (1)" />
+        <item itemvalue="Go Build.go build github.com/lampScript (5)" />
         <item itemvalue="Go Build.go build github.com/lampScript" />
         <item itemvalue="Go Build.go build github.com/lampScript (4)" />
         <item itemvalue="Go Build.go build github.com/lampScript (3)" />
-        <item itemvalue="Go Build.go build github.com/lampScript (2)" />
-        <item itemvalue="Go Build.go build github.com/lampScript (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,8 @@
     <MESSAGE value="add slide window" />
     <MESSAGE value="add lay_print" />
     <MESSAGE value="add pow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pow" />
+    <MESSAGE value="add groupAnagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="add groupAnagrams" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
