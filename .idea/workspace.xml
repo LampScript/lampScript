@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="get all sub array">
-      <change afterPath="$PROJECT_DIR$/heap_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotate_right.go" afterDir="false" />
+    <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add rotate_right.go and heap_sort.go">
+      <change afterPath="$PROJECT_DIR$/unique_paths.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chan.go" beforeDir="false" afterPath="$PROJECT_DIR$/chan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/common.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript (1)">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (3)">
     <configuration name="go build github.com/lampScript (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
@@ -107,20 +104,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/lampScript (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/unique_paths.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/lampScript (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/chan.go" />
-      <package value="github.com/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/lampScript (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/combine.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/lampScript (3)" />
         <item itemvalue="Go Build.go build github.com/lampScript (1)" />
         <item itemvalue="Go Build.go build github.com/lampScript (2)" />
         <item itemvalue="Go Build.go build github.com/lampScript (4)" />
         <item itemvalue="Go Build.go build github.com/lampScript" />
-        <item itemvalue="Go Build.go build github.com/lampScript (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +234,8 @@
     <MESSAGE value="add pow" />
     <MESSAGE value="add groupAnagrams" />
     <MESSAGE value="get all sub array" />
-    <option name="LAST_COMMIT_MESSAGE" value="get all sub array" />
+    <MESSAGE value="add rotate_right.go and heap_sort.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rotate_right.go and heap_sort.go" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -256,69 +254,76 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript_(2)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576469165046" />
-    <state x="411" y="95" key="#go_build_github.com/lampScript_(3)" timestamp="1575992806859">
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(3)" timestamp="1576590421318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(3)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576590421318" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(3)/0.0.1440.900@0.0.1440.900" timestamp="1575992806859" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(4)" timestamp="1576237455503">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript_(4)/0.0.1440.900@0.0.1440.900" timestamp="1576237455503" />
-    <state x="287" y="50" key="CommitChangelistDialog2" timestamp="1576261740856">
+    <state x="287" y="50" key="CommitChangelistDialog2" timestamp="1576590142089">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="287" y="50" key="CommitChangelistDialog2/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576590142089" />
     <state x="287" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576261740856" />
-    <state width="1192" height="293" key="GridCell.Tab.0.bottom" timestamp="1576589785755">
+    <state width="1192" height="293" key="GridCell.Tab.0.bottom" timestamp="1576592519205">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785755" />
+    <state width="1192" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519205" />
     <state width="1123" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576261659205" />
+    <state width="1192" height="236" key="GridCell.Tab.0.bottom/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422907" />
     <state width="1127" height="293" key="GridCell.Tab.0.bottom/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371172" />
-    <state width="1192" height="293" key="GridCell.Tab.0.center" timestamp="1576589785753">
+    <state width="1192" height="293" key="GridCell.Tab.0.center" timestamp="1576592519204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.0.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785753" />
+    <state width="1192" height="293" key="GridCell.Tab.0.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519204" />
     <state width="1123" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576261659203" />
+    <state width="1192" height="236" key="GridCell.Tab.0.center/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422906" />
     <state width="1127" height="293" key="GridCell.Tab.0.center/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371168" />
-    <state width="1192" height="293" key="GridCell.Tab.0.left" timestamp="1576589785752">
+    <state width="1192" height="293" key="GridCell.Tab.0.left" timestamp="1576592519203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.0.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785752" />
+    <state width="1192" height="293" key="GridCell.Tab.0.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519203" />
     <state width="1123" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576261659202" />
+    <state width="1192" height="236" key="GridCell.Tab.0.left/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422905" />
     <state width="1127" height="293" key="GridCell.Tab.0.left/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371167" />
-    <state width="1192" height="293" key="GridCell.Tab.0.right" timestamp="1576589785753">
+    <state width="1192" height="293" key="GridCell.Tab.0.right" timestamp="1576592519205">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.0.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785753" />
+    <state width="1192" height="293" key="GridCell.Tab.0.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519205" />
     <state width="1123" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576261659205" />
+    <state width="1192" height="236" key="GridCell.Tab.0.right/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422906" />
     <state width="1127" height="293" key="GridCell.Tab.0.right/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371168" />
-    <state width="1192" height="293" key="GridCell.Tab.1.bottom" timestamp="1576589785655">
+    <state width="1192" height="293" key="GridCell.Tab.1.bottom" timestamp="1576592519207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785655" />
+    <state width="1192" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519207" />
     <state width="1123" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576261659098" />
     <state width="1127" height="293" key="GridCell.Tab.1.bottom/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371188" />
-    <state width="1192" height="293" key="GridCell.Tab.1.center" timestamp="1576589785654">
+    <state width="1192" height="293" key="GridCell.Tab.1.center" timestamp="1576592519206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.1.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785654" />
+    <state width="1192" height="293" key="GridCell.Tab.1.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519206" />
     <state width="1123" height="293" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576261659097" />
     <state width="1127" height="293" key="GridCell.Tab.1.center/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371187" />
-    <state width="1192" height="293" key="GridCell.Tab.1.left" timestamp="1576589785653">
+    <state width="1192" height="293" key="GridCell.Tab.1.left" timestamp="1576592519206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.1.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785653" />
+    <state width="1192" height="293" key="GridCell.Tab.1.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519206" />
     <state width="1123" height="293" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576261659097" />
     <state width="1127" height="293" key="GridCell.Tab.1.left/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371186" />
-    <state width="1192" height="293" key="GridCell.Tab.1.right" timestamp="1576589785654">
+    <state width="1192" height="293" key="GridCell.Tab.1.right" timestamp="1576592519207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1192" height="293" key="GridCell.Tab.1.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576589785654" />
+    <state width="1192" height="293" key="GridCell.Tab.1.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576592519207" />
     <state width="1123" height="293" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576261659098" />
     <state width="1127" height="293" key="GridCell.Tab.1.right/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371188" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576261742791">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576590143382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576590143382" />
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576261742791" />
     <state x="371" y="219" width="698" height="462" key="find.popup" timestamp="1576588744501">
       <screen x="0" y="0" width="1440" height="900" />
@@ -326,6 +331,10 @@
     <state x="371" y="219" width="698" height="462" key="find.popup/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576588744501" />
     <state x="371" y="219" width="698" height="462" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1576059078097" />
     <state x="371" y="219" width="698" height="462" key="find.popup/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057357756" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576591187828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576591187828" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
