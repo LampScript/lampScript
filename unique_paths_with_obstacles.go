@@ -1,11 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	a := uniquePathsWithObstacles([][]int{[]int{1}, []int{0}})
-	fmt.Println(a)
 }
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
