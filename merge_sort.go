@@ -4,9 +4,15 @@ import "fmt"
 
 func main() {
 
-	array := []int{55, 94, 87, 1, 4, 32, 11, 77, 39, 42, 64, 53, 70, 12, 9}
-	fmt.Println(array)
-	array = MergeSort(array)
+	array := make([]int, 3, 10)
+	array[0] = 1
+	array[1] = 2
+	array[2] = 3
+	a1 := array[:2]
+	fmt.Println(a1)
+	a1 = append(a1, 4,5,6)
+	a1[0]= 123123
+	fmt.Println(a1)
 	fmt.Println(array)
 }
 
