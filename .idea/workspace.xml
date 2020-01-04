@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75881048-4ba7-4da2-b2d8-34e2050dd9a5" name="Default" comment="add merge_sort.go">
-      <change afterPath="$PROJECT_DIR$/interface_complie.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotate_matrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addStrings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiply.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merge_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/merge_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combination_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/combination_sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotate_matrix.go" beforeDir="false" afterPath="$PROJECT_DIR$/rotate_matrix.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/lampScript (2)">
+  <component name="RunManager" selected="Go Build.go build github.com/lampScript (4)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/lampScript/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/lampScript (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/addStrings.go" />
+      <package value="github.com/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/lampScript (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,25 +121,16 @@
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/unique_paths.go" />
+      <filePath value="$PROJECT_DIR$/multiply.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/lampScript (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/lampScript (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lampScript" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/unique_paths_with_obstacles.go" />
-      <package value="github.com/lampScript" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/lampScript" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lampScript" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/merge_sort.go" />
+      <filePath value="$PROJECT_DIR$/combination_sum.go" />
       <package value="github.com/lampScript" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -133,13 +144,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="lampScript" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/lampScript/lampScript" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/lampScript (2)" />
-        <item itemvalue="Go Build.go build interface_complie.go" />
-        <item itemvalue="Go Build.go build github.com/lampScript" />
-        <item itemvalue="Go Build.go build github.com/lampScript (5)" />
+        <item itemvalue="Go Build.go build github.com/lampScript (4)" />
         <item itemvalue="Go Build.go build github.com/lampScript (3)" />
+        <item itemvalue="Go Build.go build github.com/lampScript (2)" />
+        <item itemvalue="Go Build.go build github.com/lampScript (1)" />
+        <item itemvalue="Go Build.go build interface_complie.go" />
       </list>
     </recent_temporary>
   </component>
@@ -251,99 +273,101 @@
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576995323985" />
     <state x="411" y="95" key="#go_build_github.com/lampScript/0.0.1440.900@0.0.1440.900" timestamp="1576254209439" />
-    <state x="411" y="95" key="#go_build_github.com/lampScript_(1)" timestamp="1576426695871">
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(1)" timestamp="1577886989745">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript_(1)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576426695871" />
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(1)/0.0.1440.900@0.0.1440.900" timestamp="1577886989745" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(2)" timestamp="1577874852546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript_(2)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576469165046" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(2)/0.0.1440.900@0.0.1440.900" timestamp="1577874852546" />
-    <state x="411" y="95" key="#go_build_github.com/lampScript_(3)" timestamp="1576590421318">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="337" y="-966" key="#go_build_github.com/lampScript_(3)" timestamp="1577944048439">
+      <screen x="-211" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="337" y="-966" key="#go_build_github.com/lampScript_(3)/0.0.1440.900/-211.-1080.1920.1080@-211.-1080.1920.1080" timestamp="1577944048439" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(3)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576590421318" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(3)/0.0.1440.900@0.0.1440.900" timestamp="1575992806859" />
-    <state x="411" y="95" key="#go_build_github.com/lampScript_(4)" timestamp="1576237455503">
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(4)" timestamp="1578128270520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="411" y="95" key="#go_build_github.com/lampScript_(4)/0.0.1440.900@0.0.1440.900" timestamp="1576237455503" />
+    <state x="411" y="95" key="#go_build_github.com/lampScript_(4)/0.0.1440.900@0.0.1440.900" timestamp="1578128270520" />
     <state x="411" y="95" key="#go_build_github.com/lampScript_(5)" timestamp="1576593471081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="411" y="95" key="#go_build_github.com/lampScript_(5)/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576593471081" />
-    <state x="287" y="50" key="CommitChangelistDialog2" timestamp="1576985667347">
+    <state x="287" y="50" key="CommitChangelistDialog2" timestamp="1577878546751">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="287" y="50" key="CommitChangelistDialog2/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576985667347" />
-    <state x="287" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576261740856" />
-    <state width="1186" height="293" key="GridCell.Tab.0.bottom" timestamp="1577878077970">
+    <state x="287" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577878546751" />
+    <state width="1180" height="293" key="GridCell.Tab.0.bottom" timestamp="1578130279203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576995732664" />
-    <state width="1186" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577878077970" />
+    <state width="1180" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578130279203" />
     <state width="1192" height="236" key="GridCell.Tab.0.bottom/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422907" />
     <state width="1127" height="293" key="GridCell.Tab.0.bottom/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371172" />
-    <state width="1186" height="293" key="GridCell.Tab.0.center" timestamp="1577878077968">
+    <state width="1180" height="293" key="GridCell.Tab.0.center" timestamp="1578130279203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="236" key="GridCell.Tab.0.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576995732663" />
-    <state width="1186" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577878077968" />
+    <state width="1180" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578130279203" />
     <state width="1192" height="236" key="GridCell.Tab.0.center/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422906" />
     <state width="1127" height="293" key="GridCell.Tab.0.center/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371168" />
-    <state width="1186" height="293" key="GridCell.Tab.0.left" timestamp="1577878077967">
+    <state width="1180" height="293" key="GridCell.Tab.0.left" timestamp="1578130279202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="236" key="GridCell.Tab.0.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576995732662" />
-    <state width="1186" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577878077967" />
+    <state width="1180" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578130279202" />
     <state width="1192" height="236" key="GridCell.Tab.0.left/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422905" />
     <state width="1127" height="293" key="GridCell.Tab.0.left/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371167" />
-    <state width="1186" height="293" key="GridCell.Tab.0.right" timestamp="1577878077968">
+    <state width="1180" height="293" key="GridCell.Tab.0.right" timestamp="1578130279203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="236" key="GridCell.Tab.0.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576995732663" />
-    <state width="1186" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577878077968" />
+    <state width="1180" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578130279203" />
     <state width="1192" height="236" key="GridCell.Tab.0.right/0.23.1440.819/-211.-1057.1920.1057@0.23.1440.819" timestamp="1576590422906" />
     <state width="1127" height="293" key="GridCell.Tab.0.right/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371168" />
-    <state width="1186" height="293" key="GridCell.Tab.1.bottom" timestamp="1577878077903">
+    <state width="1180" height="293" key="GridCell.Tab.1.bottom" timestamp="1578130279102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576594375203" />
-    <state width="1186" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577878077903" />
+    <state width="1180" height="293" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578130279102" />
     <state width="1127" height="293" key="GridCell.Tab.1.bottom/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371188" />
-    <state width="1186" height="293" key="GridCell.Tab.1.center" timestamp="1577878077902">
+    <state width="1180" height="293" key="GridCell.Tab.1.center" timestamp="1578130279101">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="293" key="GridCell.Tab.1.center/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576594375202" />
-    <state width="1186" height="293" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577878077902" />
+    <state width="1180" height="293" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578130279101" />
     <state width="1127" height="293" key="GridCell.Tab.1.center/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371187" />
-    <state width="1186" height="293" key="GridCell.Tab.1.left" timestamp="1577878077902">
+    <state width="1180" height="293" key="GridCell.Tab.1.left" timestamp="1578130279100">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="293" key="GridCell.Tab.1.left/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576594375201" />
-    <state width="1186" height="293" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577878077902" />
+    <state width="1180" height="293" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578130279100" />
     <state width="1127" height="293" key="GridCell.Tab.1.left/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371186" />
-    <state width="1186" height="293" key="GridCell.Tab.1.right" timestamp="1577878077903">
+    <state width="1180" height="293" key="GridCell.Tab.1.right" timestamp="1578130279101">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1192" height="293" key="GridCell.Tab.1.right/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576594375203" />
-    <state width="1186" height="293" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577878077903" />
+    <state width="1180" height="293" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578130279101" />
     <state width="1127" height="293" key="GridCell.Tab.1.right/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057371188" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1576985668775">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1577878548064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576985668775" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576261742791" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577878548064" />
     <state x="499" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576985601894">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="499" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576985601894" />
-    <state x="371" y="219" width="698" height="462" key="find.popup" timestamp="1577872763937">
+    <state x="371" y="219" width="698" height="462" key="find.popup" timestamp="1578128228823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="371" y="219" width="698" height="462" key="find.popup/0.0.1440.900/-211.-1080.1920.1080@0.0.1440.900" timestamp="1576588744501" />
-    <state x="371" y="219" width="698" height="462" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577872763937" />
+    <state x="371" y="219" width="698" height="462" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578128228823" />
     <state x="371" y="219" width="698" height="462" key="find.popup/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1576057357756" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576591187828">
       <screen x="0" y="0" width="1440" height="900" />
